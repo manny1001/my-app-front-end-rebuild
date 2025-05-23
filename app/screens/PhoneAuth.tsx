@@ -11,7 +11,7 @@ const PhoneAuth = ({ context }) => {
     let number = "27" + cellphone.slice(1, 10);
     console.log(number);
     var fetchUrl = `
-  https://platform.clickatell.com/messages/http/send?apiKey=N4Yb09zfSzip6P1hS86zaQ==&to=${number}&content=Please enter this OTP to verify your cellphone number. ${otp}`;
+  https://platform.clickatell.com/messages/http/send?apiKey===&to=${number}&content=Please enter this OTP to verify your cellphone number. ${otp}`;
     fetch(fetchUrl)
       .then(function (response) {
         if (response.status >= 400) {
