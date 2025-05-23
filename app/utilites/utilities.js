@@ -28,7 +28,7 @@
           currentLocation +
           "&destination=" +
           destination +
-          "&key=AIzaSyC5xUeX27_qX8nlwItKxi5IrMnP5R1j0jM"
+          "&key="
       );
       let json = await response.json();
       console.log(json, response, "here");
